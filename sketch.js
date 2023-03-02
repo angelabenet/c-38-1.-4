@@ -39,18 +39,9 @@ function draw() {
   background(backgroundImage);
 
   // adicionar a condicionar para mudar o estadoo do jogo
-  if (playerCount === 2) {
-    game.update(1);
-  }
 
-  if (gameState === 1) {
-    game.play();
-  }
-
-  if (gameState === 2) {
-    game.showLeaderboard();
-    game.end();
-  }
+  
+  
   
 }
 
